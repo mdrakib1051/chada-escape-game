@@ -4,21 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>চাদা চোর এস্কেপ</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body { margin: 0; overflow: hidden; background: #222; }
+        canvas { display: block; margin: auto; }
+    </style>
 </head>
 <body>
-    <div id="ui">
-        <h2>চাদা চোর: এস্কেপ মিশন</h2>
-        <p>ফেস আপলোড করুন (কার্টুন বডির ওপর বসার জন্য)</p>
-        <div class="upload-group">
-            <label>রানার (যে পালাবে): <input type="file" id="runnerFace" accept="image/*"></label><br>
-            <label>চেইজার (যে ধরবে): <input type="file" id="chaserFace" accept="image/*"></label>
-        </div>
-        <button id="startBtn">গেম শুরু করুন</button>
-    </div>
-
     <script src="https://unpkg.com/kaboom@3000.1.17/dist/kaboom.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
-
